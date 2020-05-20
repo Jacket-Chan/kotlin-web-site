@@ -1,0 +1,41 @@
+.kto-socials-list {
+  display: flex;
+}
+
+.kto-socials-list__item {
+  box-sizing: border-box;
+  border-right: 1px solid rgba(39, 40, 44, 0.2);
+  padding: 0 20px 10px;
+}
+
+.kto-socials-list__item:first-of-type {
+  margin-left: -20px;
+}
+
+.kto-socials-list__item:last-of-type {
+  border-right: none;
+}
+
+.kto-socials-list > .kto-socials-list__item,
+.kto-socials-list > .kto-socials-list__item:any-link {
+  text-decoration: none;
+}
+
+.kto-socials-list > .kto-socials-list__item:hover {
+  background: rgba(39, 40, 44, 0.05);
+  opacity: 0.5;
+}
+
+.kto-socials-list__title {
+  color: #1E1E1F;
+  font-size: 18px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.kto-socials-list__description {
+  color: rgba(39, 40, 44, 0.7);
+  font-size: 14px;
+  line-height: 24px;
+}
+
